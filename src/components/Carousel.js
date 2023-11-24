@@ -14,7 +14,7 @@ const Carousel = ({ data }) => {
   };
   return (
     <div className="carousel">
-      <div className="absolute text-white mr-[920px]">
+      <div className="absolute text-white mr-[600px]">
         <div>
           <h1 className="font-medium text-xl leading-[24px] mt-12">
             SUMMER 2020

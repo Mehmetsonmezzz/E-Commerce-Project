@@ -20,9 +20,9 @@ import { Headerrepo } from "../Repository/repository";
 const Navbar = () => {
   return (
     <div>
-      <div className="bg-[#252B42] h-[58px] w-[100%] flex text-white pl-12 pr-12 items-center justify-between">
+      <div className="bg-[#252B42] h-[58px] w-[100%] flex text-white pl-24 pr-12 items-center justify-between">
         <div className="flex">
-          <p className="mr-12">
+          <p className="mr-40">
             <FontAwesomeIcon icon={faPhone} size="sm" className="mr-3" />{" "}
             {Headerrepo.number}
           </p>
@@ -43,9 +43,9 @@ const Navbar = () => {
           <FontAwesomeIcon icon={faTwitter} className="mr-3" />
         </div>
       </div>
-      <div className=" bg-white h-[58px] w-[100%] pl-12 pr-12 flex  justify-between">
+      <div className=" bg-white h-[58px] w-[100%] pl-24 pr-12 flex  justify-between">
         <div className="flex items-center">
-          <div className="mr-[25px] text-[#252B42] text-2xl font-bold mr-72 ">
+          <div className=" text-[#252B42] text-2xl font-bold mr-52 ">
             <h1>{Headerrepo.Bandage}</h1>
           </div>
           <div>
