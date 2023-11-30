@@ -15,7 +15,7 @@ import {
   faFacebook,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-import { Headerrepo } from "../Repository/repository";
+import { Headerrepo } from "../data/data";
 
 const Navbar = () => {
   return (

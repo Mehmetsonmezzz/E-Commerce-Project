@@ -1,4 +1,4 @@
-import { shopCard } from "../Repository/repository";
+import { shopCard } from "../data/data";
 // {Headerrepo.navlink.map(([name, url], id) => (
 const ShopCard = () => {
   return (

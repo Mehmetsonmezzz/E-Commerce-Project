@@ -1,8 +1,8 @@
 import "./Carousel.css";
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
-import { carousel } from "../data/data";
+import { carousel, carousel2 } from "../data/data";
 import { useState } from "react";
-const Carousel = ({ data }) => {
+const SecondCarousel = ({ data }) => {
   const [slide, setSlide] = useState(0);
 
   const nextSlide = () => {
@@ -22,14 +22,16 @@ const Carousel = ({ data }) => {
         </div>
         <div>
           <h1 className="font-bold text-6xl leading-[80px] mt-12">
-            NEW COLLECTİON
+            Vita Classic <br />
+            Product
           </h1>
         </div>
         <div className="mt-12 text-xl">
           We know how large objects will act,
           <br /> but things on a small scale
         </div>
-        <div>
+        <div className="flex">
+          <p className=" text-xl w-[150px] h-[62px]	mt-16">$16.48</p>
           <button className="bg-[#2DC071] w-[221px] h-[62px] rounded-md	mt-12">
             Shop Now
           </button>
@@ -37,7 +39,7 @@ const Carousel = ({ data }) => {
       </div>
       <BsArrowLeftCircleFill onClick={prevSlide} className="arrow arrow-left" />
 
-      {carousel.slides.map((item, idx) => {
+      {carousel2.slides.map((item, idx) => {
         return (
           <img
             src={item.src}
@@ -69,4 +71,4 @@ const Carousel = ({ data }) => {
   );
 };
 
-export default Carousel;
+export default SecondCarousel;
