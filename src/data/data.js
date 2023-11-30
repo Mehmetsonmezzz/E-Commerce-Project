@@ -5,6 +5,10 @@ import women from "../assets/HomePage/women.jpeg";
 import accessories from "../assets/HomePage/accessories.jpeg";
 import kids from "../assets/HomePage/kids.jpeg";
 import productImg from "../assets/productCard/productcard.png";
+import FluidImg from "../assets/HomePage/asian-woman-man-with-winter-clothes 14x.png";
+import firstImg from "../assets/HomePage/firstFeatured.png";
+import secondImg from "../assets/HomePage/secondFeatured.png";
+import thirdImg from "../assets/HomePage/thirdFeatured.png";
 
 export const Headerrepo = {
   number: "(225) 555-0118",
@@ -119,3 +123,46 @@ export const productCard = [
     colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#23856D]", "bg-[purple]"],
   },
 ];
+export const featuredPosts = [
+  {
+    src: firstImg,
+    relating1: "Google",
+    relating2: "Trending New",
+    name: "Loudest a la Madison #1(L'integral)",
+    desc: "We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
+    date: "22 April 2021",
+    comment: "10 comments",
+    more: "Learn More",
+  },
+  {
+    src: secondImg,
+    relating1: "Google",
+    relating2: "Trending New",
+    name: "Loudest a la Madison #1(L'integral)",
+    desc: "We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
+    date: "22 April 2021",
+    comment: "10 comments",
+    more: "Learn More",
+  },
+  {
+    src: thirdImg,
+    relating1: "Google",
+    relating2: "Trending New",
+    name: "Loudest a la Madison #1(L'integral)",
+    desc: "We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
+    date: "22 April 2021",
+    comment: "10 comments",
+    more: "Learn More",
+  },
+];
+export const featuredDesc = [
+  {
+    practive: "Practive Advice",
+    featured: "Featured Post",
+    problems:
+      "Problems trying to resolve the conflict between the major realms of Classical physics: Newtonian mechanics",
+  },
+];
+export const fluid = {
+  src: FluidImg,
+};
