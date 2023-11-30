@@ -18,7 +18,7 @@ function FeaturedPosts() {
             { src, relating1, relating2, name, desc, date, comment, more },
             idx
           ) => (
-            <div className="w-1/6 mr-4 ">
+            <div className="w-1/6 mr-4 shadow-xl">
               <div>
                 <img src={src} alt="desc" className="w-80 h-72"></img>
               </div>
