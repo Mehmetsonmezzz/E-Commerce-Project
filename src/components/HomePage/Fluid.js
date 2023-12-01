@@ -1,5 +1,5 @@
 import React from "react";
-import { fluid } from "../data/data";
+import { fluid } from "../../data/data";
 
 function Fluid() {
   return (

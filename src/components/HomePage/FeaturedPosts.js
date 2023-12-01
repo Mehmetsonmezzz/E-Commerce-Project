@@ -1,5 +1,5 @@
 import React from "react";
-import { featuredDesc, featuredPosts } from "../data/data";
+import { featuredDesc, featuredPosts } from "../../data/data";
 
 function FeaturedPosts() {
   return (

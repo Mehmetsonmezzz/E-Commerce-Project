@@ -1,9 +1,9 @@
-import Carousel from "../components/Carousel";
-import ProductCard from "../components/ProductCard";
-import ShopCard from "../components/ShopCard";
-import SecondCarousel from "../components/SecondCarousel";
-import Fluid from "../components/Fluid";
-import FeaturedPosts from "../components/FeaturedPosts";
+import Carousel from "../components/HomePage/Carousel";
+import ProductCard from "../components/HomePage/ProductCard";
+import ShopCard from "../components/HomePage/ShopCard";
+import SecondCarousel from "../components/HomePage/SecondCarousel";
+import Fluid from "../components/HomePage/Fluid";
+import FeaturedPosts from "../components/HomePage/FeaturedPosts";
 
 const HomePage = () => {
   return (

@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./layouts/Header";
 import HomePage from "./pages/HomePage";
 import ProductList from "./pages/ProductList";
+import Footer from "./layouts/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <HomePage />
         </Route>
       </Switch>
+      <Footer />
     </>
   );
 }

@@ -73,6 +73,7 @@ export const productCard = [
     price: "$16.48 $6.48",
     colors: ["blue", "green", "orange", "purple"],
   },
+
   {
     src: productImg,
     name: "Graphic Desingn",
@@ -123,6 +124,109 @@ export const productCard = [
     colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#23856D]", "bg-[purple]"],
   },
 ];
+
+export const productCards = [
+  {
+    src: productImg,
+    name: "Graphic Desingn",
+    desc: "English Department",
+    price: "$16.48 $6.48",
+    colors: ["blue", "green", "orange", "purple"],
+  },
+
+  {
+    src: productImg,
+    name: "Graphic Desingn",
+    desc: "English Department",
+    price: "$16.48 $6.48",
+    colors: ["blue", "green", "orange", "purple"],
+  },
+  {
+    src: productImg,
+    name: "Graphic Desingn",
+    desc: "English Department",
+    price: "$16.48 $6.48",
+    colors: ["blue", "green", "orange", "purple"],
+  },
+  {
+    src: productImg,
+    name: "Graphic Desingn",
+    desc: "English Department",
+    price: "$16.48 $6.48",
+    colors: ["blue", "green", "orange", "purple"],
+  },
+  {
+    src: productImg,
+    name: "Graphic Desingn",
+    desc: "English Department",
+    price: "$16.48 $6.48",
+    colors: ["blue", "green", "orange", "purple"],
+  },
+  {
+    src: productImg,
+    name: "Graphic Desingn",
+    desc: "English Department",
+    price: "$16.48 $6.48",
+    colors: ["blue", "green", "orange", "purple"],
+  },
+  {
+    src: productImg,
+    name: "Graphic Desingn",
+    desc: "English Department",
+    price: "$16.48 $6.48",
+    colors: ["blue", "green", "orange", "purple"],
+  },
+  {
+    src: productImg,
+    name: "Graphic Desingn",
+    desc: "English Department",
+    price: "$16.48 $6.48",
+    colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#23856D]", "bg-[purple]"],
+  },
+  {
+    src: productImg,
+    name: "Graphic Desingn",
+    desc: "English Department",
+    price: "$16.48 $6.48",
+    colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#23856D]", "bg-[purple]"],
+  },
+  {
+    src: productImg,
+    name: "Graphic Desingn",
+    desc: "English Department",
+    price: "$16.48 $6.48",
+    colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#23856D]", "bg-[purple]"],
+  },
+  {
+    src: productImg,
+    name: "Graphic Desingn",
+    desc: "English Department",
+    price: "$16.48 $6.48",
+    colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#23856D]", "bg-[purple]"],
+  },
+  {
+    src: productImg,
+    name: "Graphic Desingn",
+    desc: "English Department",
+    price: "$16.48 $6.48",
+    colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#23856D]", "bg-[purple]"],
+  },
+];
+
+export const productCardColor = [
+  {
+    colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#23856D]", "bg-[purple]"],
+  },
+  {
+    colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#23856D]", "bg-[purple]"],
+  },
+  {
+    colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#23856D]", "bg-[purple]"],
+  },
+  {
+    colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#23856D]", "bg-[purple]"],
+  },
+];
 export const featuredPosts = [
   {
     src: firstImg,
@@ -166,3 +270,31 @@ export const featuredDesc = [
 export const fluid = {
   src: FluidImg,
 };
+
+export const shopCategory = [
+  {
+    src: thirdImg,
+    categoryName: "CLOTHS",
+    itemCount: "5 Items",
+  },
+  {
+    src: thirdImg,
+    categoryName: "CLOTHS",
+    itemCount: "5 Items",
+  },
+  {
+    src: thirdImg,
+    categoryName: "CLOTHS",
+    itemCount: "5 Items",
+  },
+  {
+    src: thirdImg,
+    categoryName: "CLOTHS",
+    itemCount: "5 Items",
+  },
+  {
+    src: thirdImg,
+    categoryName: "CLOTHS",
+    itemCount: "5 Items",
+  },
+];

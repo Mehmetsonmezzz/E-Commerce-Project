@@ -1,4 +1,4 @@
-import { productCard } from "../data/data";
+import { productCard } from "../../data/data";
 
 const ProductCard = () => {
   return (
