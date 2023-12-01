@@ -8,8 +8,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Footer = () => {
   return (
     <div className="">
-      <div className="flex justify-around h-[142px] bg-[#FAFAFA] items-center">
-        <div>Bandage</div>
+      <div className="flex justify-around h-[142px] items-center">
+        <div className="font-bold text-2xl">Bandage</div>
         <div className="text-[#23A6F0]">
           <FontAwesomeIcon icon={faFacebook} className="mr-3 text-2xl" />
           <FontAwesomeIcon icon={faInstagram} className="mr-3 text-2xl" />
@@ -19,8 +19,8 @@ const Footer = () => {
 
       <div className="flex justify-center">
         <div className=" w-[10%]">
-          <h3 className="text-[#252B42] font-bold">Company Info</h3>
-          <div className="text-[#737373]">
+          <h3 className="text-[#252B42] font-bold mb-3">Company Info</h3>
+          <div className="text-[#737373] font-bold">
             <p>About Us</p>
             <p>Carrier</p>
             <p>We are hiring</p>
@@ -28,8 +28,8 @@ const Footer = () => {
           </div>
         </div>
         <div className=" w-[11%]">
-          <h3 className="text-[#252B42] font-bold">Legal</h3>
-          <div className="text-[#737373]">
+          <h3 className="text-[#252B42] font-bold mb-3">Legal</h3>
+          <div className="text-[#737373] font-bold">
             <p>About Us</p>
             <p>Carrier</p>
             <p>We are hiring</p>
@@ -37,8 +37,8 @@ const Footer = () => {
           </div>
         </div>
         <div className=" w-[11%]">
-          <h3 className="text-[#252B42] font-bold">Features</h3>
-          <div className="text-[#737373]">
+          <h3 className="text-[#252B42] font-bold mb-3">Features</h3>
+          <div className="text-[#737373] font-bold">
             <p>About Us</p>
             <p>Carrier</p>
             <p>We are hiring</p>
@@ -46,8 +46,8 @@ const Footer = () => {
           </div>
         </div>
         <div className=" w-[11%]">
-          <h3 className="text-[#252B42] font-bold">Resources</h3>
-          <div className="text-[#737373]">
+          <h3 className="text-[#252B42] font-bold mb-3">Resources</h3>
+          <div className="text-[#737373] font-bold pb-3">
             <p>About Us</p>
             <p>Carrier</p>
             <p>We are hiring</p>

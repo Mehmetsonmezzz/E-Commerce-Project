@@ -16,6 +16,12 @@ import dorduncu from "../assets/team/dorduncu.png";
 import besinci from "../assets/team/besinci.png";
 import altinci from "../assets/team/altinci.png";
 import sonuncu from "../assets/team/sonuncu.png";
+import holi from "../assets/general/holi.png";
+import lyft from "../assets/general/lyft.png";
+import brands from "../assets/general/brands.png";
+import stripe from "../assets/general/stripe.png";
+import aws from "../assets/general/aws.png";
+import last from "../assets/general/last.png";
 
 export const Headerrepo = {
   number: "(225) 555-0118",
@@ -26,7 +32,7 @@ export const Headerrepo = {
     ["Shop", "/shopping"],
     ["About", "/"],
     ["Blog", "/"],
-    ["Contact", "/"],
+    ["Contact", "/contact"],
     ["Team", "/team"],
   ],
 
@@ -346,5 +352,32 @@ export const team = [
     src: sonuncu,
     name: "Jacob Jones",
     itemCount: "Starbucks",
+  },
+];
+
+export const clients = [
+  {
+    src: holi,
+    alt: "holi",
+  },
+  {
+    src: lyft,
+    alt: "lyft",
+  },
+  {
+    src: brands,
+    alt: "brands",
+  },
+  {
+    src: stripe,
+    alt: "stripe",
+  },
+  {
+    src: aws,
+    alt: "aws",
+  },
+  {
+    src: last,
+    alt: "last",
   },
 ];
