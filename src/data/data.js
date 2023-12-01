@@ -9,6 +9,13 @@ import FluidImg from "../assets/HomePage/asian-woman-man-with-winter-clothes 14x
 import firstImg from "../assets/HomePage/firstFeatured.png";
 import secondImg from "../assets/HomePage/secondFeatured.png";
 import thirdImg from "../assets/HomePage/thirdFeatured.png";
+import birinci from "../assets/team/birinci.jpg";
+import ikinci from "../assets/team/ikinci.png";
+import ucuncu from "../assets/team/ucuncu.png";
+import dorduncu from "../assets/team/dorduncu.png";
+import besinci from "../assets/team/besinci.png";
+import altinci from "../assets/team/altinci.png";
+import sonuncu from "../assets/team/sonuncu.png";
 
 export const Headerrepo = {
   number: "(225) 555-0118",
@@ -20,7 +27,7 @@ export const Headerrepo = {
     ["About", "/"],
     ["Blog", "/"],
     ["Contact", "/"],
-    ["Pages", "/"],
+    ["Team", "/team"],
   ],
 
   Bandage: "Bandage",
@@ -296,5 +303,48 @@ export const shopCategory = [
     src: thirdImg,
     categoryName: "CLOTHS",
     itemCount: "5 Items",
+  },
+];
+
+export const team = [
+  {
+    src: birinci,
+    name: "Jerome Bell",
+    itemCount: "IBM",
+  },
+  {
+    src: ikinci,
+    name: "Brooklyn Simmons",
+    itemCount: "IBM",
+  },
+  {
+    src: ucuncu,
+    name: "Ronald Richards",
+    itemCount: "Facebook",
+  },
+  {
+    src: besinci,
+    name: "Floyd Miles",
+    itemCount: "Facebook",
+  },
+  {
+    src: altinci,
+    name: "Jane Cooper",
+    itemCount: "Mitsubishi",
+  },
+  {
+    src: altinci,
+    name: "Robert Fox",
+    itemCount: "IBM",
+  },
+  {
+    src: dorduncu,
+    name: "Leslie Alexander",
+    itemCount: "Disney",
+  },
+  {
+    src: sonuncu,
+    name: "Jacob Jones",
+    itemCount: "Starbucks",
   },
 ];

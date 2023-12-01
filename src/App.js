@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./layouts/Header";
 import HomePage from "./pages/HomePage";
 import ProductList from "./pages/ProductList";
+import Team from "./pages/Team";
 import Footer from "./layouts/Footer";
 
 function App() {
@@ -12,6 +13,9 @@ function App() {
       <Switch>
         <Route path="/shopping">
           <ProductList />
+        </Route>
+        <Route path="/team">
+          <Team />
         </Route>
         <Route path="/home">
           <HomePage />

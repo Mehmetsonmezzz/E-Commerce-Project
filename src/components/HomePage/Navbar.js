@@ -7,7 +7,6 @@ import {
   faSearch,
   faCartShopping,
   faHeart,
-  faVrCardboard,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faInstagram,
