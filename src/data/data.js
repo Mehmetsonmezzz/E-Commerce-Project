@@ -22,6 +22,8 @@ import brands from "../assets/general/brands.png";
 import stripe from "../assets/general/stripe.png";
 import aws from "../assets/general/aws.png";
 import last from "../assets/general/last.png";
+import product from "../assets/product/product.jpg";
+import product2 from "../assets/product/product2.png";
 
 export const Headerrepo = {
   number: "(225) 555-0118",
@@ -51,6 +53,40 @@ export const carousel = {
     },
   ],
 };
+
+export const productImage = {
+  src: product2,
+  alt: "Image",
+};
+
+export const carousels = {
+  slides: [
+    {
+      src: product,
+      alt: "Image carousel",
+    },
+    {
+      src: product,
+      alt: "Image carousel",
+    },
+  ],
+};
+
+export const items = [
+  {
+    src: product,
+    altText: "Resim 1",
+    caption: "resim 1",
+    key: 1,
+  },
+  {
+    src: product,
+    altText: "Slide 2",
+    caption: "Slide 2",
+    key: 2,
+  },
+];
+
 export const carousel2 = {
   slides: [
     {
@@ -141,7 +177,7 @@ export const productCard = [
 export const productCards = [
   {
     src: productImg,
-    name: "Graphic Desingn",
+    name: "Graphic Design",
     desc: "English Department",
     price: "$16.48 $6.48",
     colors: ["blue", "green", "orange", "purple"],
@@ -149,77 +185,77 @@ export const productCards = [
 
   {
     src: productImg,
-    name: "Graphic Desingn",
+    name: "Graphic Design",
     desc: "English Department",
     price: "$16.48 $6.48",
     colors: ["blue", "green", "orange", "purple"],
   },
   {
     src: productImg,
-    name: "Graphic Desingn",
+    name: "Graphic Design",
     desc: "English Department",
     price: "$16.48 $6.48",
     colors: ["blue", "green", "orange", "purple"],
   },
   {
     src: productImg,
-    name: "Graphic Desingn",
+    name: "Graphic Design",
     desc: "English Department",
     price: "$16.48 $6.48",
     colors: ["blue", "green", "orange", "purple"],
   },
   {
     src: productImg,
-    name: "Graphic Desingn",
+    name: "Graphic Design",
     desc: "English Department",
     price: "$16.48 $6.48",
     colors: ["blue", "green", "orange", "purple"],
   },
   {
     src: productImg,
-    name: "Graphic Desingn",
+    name: "Graphic Design",
     desc: "English Department",
     price: "$16.48 $6.48",
     colors: ["blue", "green", "orange", "purple"],
   },
   {
     src: productImg,
-    name: "Graphic Desingn",
+    name: "Graphic Design",
     desc: "English Department",
     price: "$16.48 $6.48",
     colors: ["blue", "green", "orange", "purple"],
   },
   {
     src: productImg,
-    name: "Graphic Desingn",
+    name: "Graphic Design",
     desc: "English Department",
     price: "$16.48 $6.48",
     colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#23856D]", "bg-[purple]"],
   },
   {
     src: productImg,
-    name: "Graphic Desingn",
+    name: "Graphic Design",
     desc: "English Department",
     price: "$16.48 $6.48",
     colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#23856D]", "bg-[purple]"],
   },
   {
     src: productImg,
-    name: "Graphic Desingn",
+    name: "Graphic Design",
     desc: "English Department",
     price: "$16.48 $6.48",
     colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#23856D]", "bg-[purple]"],
   },
   {
     src: productImg,
-    name: "Graphic Desingn",
+    name: "Graphic Design",
     desc: "English Department",
     price: "$16.48 $6.48",
     colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#23856D]", "bg-[purple]"],
   },
   {
     src: productImg,
-    name: "Graphic Desingn",
+    name: "Graphic Design",
     desc: "English Department",
     price: "$16.48 $6.48",
     colors: ["bg-[#23A6F0]", "bg-[#23856D]", "bg-[#23856D]", "bg-[purple]"],
@@ -243,8 +279,8 @@ export const productCardColor = [
 export const featuredPosts = [
   {
     src: firstImg,
-    relating1: "Google",
-    relating2: "Trending New",
+    relating1: "Google ",
+    relating2: " Trending New",
     name: "Loudest a la Madison #1(L'integral)",
     desc: "We focus on ergonomics and meeting you where you work. It's only a keystroke away.",
     date: "22 April 2021",

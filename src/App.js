@@ -6,6 +6,7 @@ import ProductList from "./pages/ProductList";
 import Team from "./pages/Team";
 import Footer from "./layouts/Footer";
 import Contact from "./pages/Contact";
+import Product from "./pages/Product";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
       <Switch>
         <Route path="/shopping">
           <ProductList />
+        </Route>
+        <Route path="/product">
+          <Product />
         </Route>
         <Route path="/contact">
           <Contact />

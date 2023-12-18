@@ -7,13 +7,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
   return (
-    <div className="">
-      <div className="flex justify-around h-[142px] items-center">
-        <div className="font-bold text-2xl">Bandage</div>
-        <div className="text-[#23A6F0]">
-          <FontAwesomeIcon icon={faFacebook} className="mr-3 text-2xl" />
-          <FontAwesomeIcon icon={faInstagram} className="mr-3 text-2xl" />
-          <FontAwesomeIcon icon={faTwitter} className="mr-3 text-2xl" />
+    <div className="mt-24">
+      <div className="mr-96 ml-96">
+        <div className="flex h-[142px] items-center justify-between border-b-2 border-gray-200 border-solid m-3">
+          <div className="font-bold text-2xl">Bandage</div>
+          <div className="text-[#23A6F0]">
+            <FontAwesomeIcon icon={faFacebook} className="mr-3 text-2xl" />
+            <FontAwesomeIcon icon={faInstagram} className="mr-3 text-2xl" />
+            <FontAwesomeIcon icon={faTwitter} className="mr-3 text-2xl" />
+          </div>
         </div>
       </div>
 
@@ -57,17 +59,20 @@ const Footer = () => {
         <div className="w-[13%]">
           <h4 className="text-[#252B42] font-bold">Get In Touch</h4>
           <div className="flex h-[58px]">
-            <div className="flex w-2/3">
+            <div className="flex w-2/3 border border-solid border-gray-300 rounded-md">
               <input
                 type="text"
                 placeholder="Your Email"
-                className="bg-[#E6E6E6]"
+                className="bg-[#E6E6E6] font-semibold p-4"
               />
             </div>
 
-            <div className="flex bg-[#23A6F0] text-center justify-center w-1/3">
+            <div className="flex bg-[#23A6F0] text-center justify-center w-1/3 rounded-e-md text-white">
               <button>Subscribe</button>
             </div>
+          </div>
+          <div className="pt-2 text-[#737373] font-bold">
+            Lore imp sum dolor Amit
           </div>
         </div>
       </div>
