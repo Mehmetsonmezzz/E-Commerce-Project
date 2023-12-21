@@ -12,7 +12,7 @@ const ShopCard = () => {
           <img
             src={shopCard.menImg}
             alt="men"
-            className="w-[500px] h-[500px]"
+            className="w-[350px] h-[500px]"
           ></img>
           <button className=" absolute bottom-[5%] left-[5%] w-[120px] text-slate-800 text-base font-bold py-3 bg-white">
             MEN

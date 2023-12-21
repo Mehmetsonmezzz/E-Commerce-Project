@@ -21,7 +21,7 @@ const ProductCards = () => {
             <div>
               <h2 className="text-gray-500 font-bold">{price}</h2>
             </div>
-            <div className="w-[82px] h-[20] flex gap-2 ml-[3.2rem] mt-3">
+            <div className="w-[82px] h-[20] flex gap-2 ml-[3.6rem] mt-3">
               <div className="h-4 w-4 rounded-[50%] bg-[#23A6F0]"></div>
               <div className="h-4 w-4 rounded-[50%] bg-[#23856D]"></div>
               <div className="h-4 w-4 rounded-[50%] bg-[#23856D]"></div>

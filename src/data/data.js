@@ -24,6 +24,7 @@ import aws from "../assets/general/aws.png";
 import last from "../assets/general/last.png";
 import product from "../assets/product/product.jpg";
 import product2 from "../assets/product/product2.png";
+import aboutImg from "../assets/about/about1.png";
 
 export const Headerrepo = {
   number: "(225) 555-0118",
@@ -32,7 +33,7 @@ export const Headerrepo = {
   navlink: [
     ["Home", "/"],
     ["Shop", "/shopping"],
-    ["About", "/"],
+    ["About", "/about"],
     ["Blog", "/"],
     ["Contact", "/contact"],
     ["Team", "/team"],
@@ -318,6 +319,10 @@ export const featuredDesc = [
 ];
 export const fluid = {
   src: FluidImg,
+};
+export const about = {
+  src: aboutImg,
+  alt: "About Img",
 };
 
 export const shopCategory = [
