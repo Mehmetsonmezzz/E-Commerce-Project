@@ -9,11 +9,11 @@ import Client from "../components/ProductList/Client";
 const Product = () => {
   return (
     <div>
-      <div className="flex justify-center py-16 bg-[#FAFAFA]">
-        <div className="w-[500px] h-[450]">
+      <div className="lg:flex px-12 lg:px-0 justify-center py-16 bg-[#FAFAFA]">
+        <div className="lg:w-[500px] lg:h-[450px] ">
           <Carousels />
         </div>
-        <div className="w-1/4 grid ml-20 gap-3">
+        <div className="lg:w-1/4 grid lg:ml-20 gap-3">
           <h1 className="text-[#252B42] font-bold text-lg">Floating Phone</h1>
 
           <div className="flex">
@@ -93,8 +93,10 @@ const Product = () => {
       </div>
       <QuickFox />
       <div>
-        <div className=" mt-12 border-b-2 border-gray-200 border-solid pb-4 text-[#737373] mr-96 ml-96">
-          Bestseller Products
+        <div className="text-center lg:text-start mt-12 border-b-2 border-gray-200 border-solid pb-4 text-[#737373] lg:mr-96 lg:ml-96">
+          <h1 className="text-[#252B42] font-bold text-2xl">
+            Bestseller Products
+          </h1>
         </div>
         <div>
           <ProductCards />

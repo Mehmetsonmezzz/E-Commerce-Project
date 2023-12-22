@@ -4,11 +4,7 @@ import { team } from "../../data/data";
 function TeamCard() {
   return (
     <div>
-      <div className="text-center pb-2">
-        <h3 className="font-bold text-2xl pb-2">Meet Our Team</h3>
-        <p>Problems trying to resolve the conflict between</p>
-      </div>
-      <div className="flex flex-wrap justify-center pl-40 pr-40 mb-6 mt-6">
+      <div className="flex flex-wrap justify-center lg:pl-40 lg:pr-40 text-center mb-6 mt-6">
         {team.map(({ src, name, itemCount }) => (
           <div className="pr-10 mb-6 ">
             <div>

@@ -2,23 +2,20 @@ import { about } from "../../data/data";
 
 const AboutUs = () => {
   return (
-    <div className="flex w-[95%]">
-      <div
-        className="grid items-end text-left w-[80%] justify-center
-         mx-auto my-auto gap-12"
-      >
+    <div className="lg:flex lg:w-[95%]">
+      <div className=" my-24 grid items-start text-center lg:text-left lg:w-[80%] justify-center lg:mx-auto lg:my-auto gap-4 lg:gap-12">
         <div>
-          <h3 className="text-slate-800 text-xl font-bold leading-normal">
+          <h3 className="text-slate-800 lg:text-xl font-bold leading-normal">
             ABOUT COMPANY
           </h3>
         </div>
         <div>
-          <h1 className="text-slate-800 text-6xl font-bold leading-normal">
+          <h1 className="text-slate-800 text-2xl lg:text-6xl font-bold leading-normal">
             ABOUT US
           </h1>
         </div>
         <div>
-          <p className="text-[#737373] text-normal  leading-normal">
+          <p className="text-[#737373] text-normal  leading-normal w-52 lg:w-auto">
             We know how large objects will act,
           </p>
           <p className="text-[#737373]  text-normal  leading-normal">

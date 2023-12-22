@@ -7,7 +7,7 @@ import {
 
 const ProductCards = () => {
   return (
-    <div className="flex flex-wrap justify-center items-center text-center mr-72 ml-72">
+    <div className="flex flex-wrap justify-center items-center text-center lg:mr-72 lg:ml-72">
       {productCards.map(({ src, name, desc, price, colors }, idx) => (
         <div className="px-6 py-6 rounded-xl" key={idx}>
           <img src={src} alt={desc} className="w-[230px] h-[300px] shadow-xl" />

@@ -3,13 +3,13 @@ import { shopCategory } from "../../data/data";
 
 function ShopCategory() {
   return (
-    <div className="flex justify-center bg-[#FAFAFA] mb-24">
+    <div className="lg:flex grid gap-3 justify-center bg-[#FAFAFA] mb-24 ">
       {shopCategory.map(({ src, categoryName, itemCount }) => (
         <div className=" relative">
           <img
             src={src}
             alt="srcname"
-            className="w-[280px] h-[223px] mr-3"
+            className="w-[280px] h-[223px] mr-3 rounded-lg shadow-md"
           ></img>
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white">
             <h3 className="font-bold">{categoryName}</h3>

@@ -6,7 +6,7 @@ import { faRightLong } from "@fortawesome/free-solid-svg-icons";
 
 function FeaturedPosts() {
   return (
-    <div className="h-[720px] mb-12">
+    <div className="lg:h-[720px] mb-12">
       {featuredDesc.map(({ practive, featured, problems }) => (
         <div className=" mt-20 mb-20 grid justify-center items-center text-center  gap-6">
           <h3 className="text-[#23A6F0] font-bold">{practive}</h3>
@@ -15,15 +15,19 @@ function FeaturedPosts() {
         </div>
       ))}
 
-      <div className="flex justify-center h-[px]">
+      <div className="lg:flex grid justify-center">
         {featuredPosts.map(
           (
             { src, relating1, relating2, name, desc, date, comment, more },
             idx
           ) => (
-            <div className="w-1/6 mr-4 shadow-xl">
+            <div className="lg:w-1/6 lg:mr-4 shadow-xl">
               <div>
-                <img src={src} alt="desc" className="w-80 h-72"></img>
+                <img
+                  src={src}
+                  alt="desc"
+                  className="lg:w-80 lg:h-72 px-6 lg:px-0"
+                ></img>
               </div>
               <div className="p-3">
                 <div className="flex p-2">

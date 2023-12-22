@@ -14,23 +14,23 @@ const Carousel = ({ data }) => {
   };
   return (
     <div className="carousel">
-      <div className="absolute text-white mr-[600px]">
+      <div className="absolute text-white lg:mr-[600px]">
         <div>
-          <h1 className="font-medium text-xl leading-[24px] mt-12">
+          <h1 className="font-medium text-lg lg:text-xl leading-[24px] lg:mt-12">
             SUMMER 2020
           </h1>
         </div>
         <div>
-          <h1 className="font-bold text-6xl leading-[80px] mt-12">
+          <h1 className="font-bold text-3xl lg:text-6xl leading-[80px] lg:mt-12">
             NEW COLLECTİON
           </h1>
         </div>
-        <div className="mt-12 text-xl">
+        <div className="lg:mt-12 lg:text-xl mb-6 lg:mb-0">
           We know how large objects will act,
           <br /> but things on a small scale
         </div>
         <div>
-          <button className="bg-[#2DC071] w-[221px] h-[62px] rounded-md	mt-12">
+          <button className="bg-[#2DC071] w-[140px] lg:w-[221px] h-[62px] rounded-md	lg:mt-12 mb-20 lg:mb-0">
             Shop Now
           </button>
         </div>
@@ -43,7 +43,7 @@ const Carousel = ({ data }) => {
             src={item.src}
             alt={item.alt}
             key={idx}
-            className={slide === idx ? "slide" : "slide-hidden"}
+            className={slide === idx ? "slide" : "slide-hidden "}
           />
         );
       })}

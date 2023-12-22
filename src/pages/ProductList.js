@@ -14,12 +14,12 @@ const ProductList = () => {
       <ShopBanner />
       <ShopCategory />
       <div>
-        <div className="pl-32 pr-32">
-          <div className="flex justify-between pl-24 pr-24">
+        <div className="lg:pl-32 lg:pr-32 text-center">
+          <div className="lg:flex grid gap-4 justify-center lg:justify-between lg:pl-24 lg:pr-24">
             <div className="font-bold text-[#737373]">
               Showing all 12 results
             </div>
-            <div className="text-[#737373] flex">
+            <div className="text-[#737373] flex ml-12 lg:ml-0">
               {" "}
               <div className=" flex text-[#737373] h-[45px] justify-center items-center">
                 {" "}

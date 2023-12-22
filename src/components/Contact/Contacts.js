@@ -5,11 +5,11 @@ function Contacts() {
   return (
     <div className="relative text-center">
       <div>
-        <img src={contact} alt="contact img"></img>
+        <img className=" h-96 w-[200vw]" src={contact} alt="contact img"></img>
       </div>
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-1/5">
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:w-1/5 w-[45%]">
         <h1 className="font-bold text-3xl mb-4">Questions & Answers</h1>
-        <p className="text-[#737373] font-normal mb-8">
+        <p className="text-[#737373] font-bold mb-8">
           Problems trying to resolve the conflict between the two major realms
           of Classical physics
         </p>
