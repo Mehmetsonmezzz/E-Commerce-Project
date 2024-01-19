@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="mt-24">
       <div className="lg:mr-96 lg:ml-96">
-        <div className="lg:flex grid h-[142px] items-center justify-between border-b-2 border-gray-200 border-solid m-3">
+        <div className="lg:flex grid h-[142px] items-center justify-between border-b-2 border-gray-200 border-solid pl-12 lg:pl-0">
           <div className="font-bold text-2xl">Bandage</div>
           <div className="text-[#23A6F0]">
             <FontAwesomeIcon icon={faFacebook} className="mr-3 text-2xl" />
@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="lg:flex justify-center ml-16">
+      <div className="lg:flex justify-center ml-12 lg:ml-0 mt-4 lg:mt-0">
         <div className=" lg:w-[10%] lg:mb-0 mb-4">
           <h3 className="text-[#252B42] font-bold mb-3">Company Info</h3>
           <div className="text-[#737373] font-bold">
@@ -76,7 +76,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex bg-[#FAFAFA] h-[74px] text-[#737373] items-center font-bold lg:pl-[412px]">
+      <div className="flex bg-[#FAFAFA] h-[74px] text-[#737373] items-center font-bold lg:pl-[412px] p-4">
         <p>Made With Love By Finland All Right Reserved</p>
       </div>
     </div>

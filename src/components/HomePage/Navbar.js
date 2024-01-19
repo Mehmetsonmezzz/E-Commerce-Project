@@ -65,7 +65,9 @@ const Navbar = () => {
         <div className="flex items-center">
           {" "}
           <FontAwesomeIcon icon={faUser} className="mr-2" />
-          <p className="mr-5">Login / Register</p>
+          <p className="mr-5">
+            Login /<a href="/signup">Register</a>{" "}
+          </p>
           <FontAwesomeIcon icon={faSearch} className="mr-5" />
           <FontAwesomeIcon icon={faCartShopping} className="mr-5" />
           <FontAwesomeIcon icon={faHeart} className="mr-5" />

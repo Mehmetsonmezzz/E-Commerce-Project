@@ -6,7 +6,7 @@ function TeamCard() {
     <div>
       <div className="flex flex-wrap justify-center lg:pl-40 lg:pr-40 text-center mb-6 mt-6">
         {team.map(({ src, name, itemCount }) => (
-          <div className="pr-10 mb-6 ">
+          <div className="lg:pr-10 mb-6 ">
             <div>
               <img
                 src={src}

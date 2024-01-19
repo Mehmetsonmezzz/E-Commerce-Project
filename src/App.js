@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage";
 import ProductList from "./pages/ProductList";
 import Team from "./pages/Team";
 import Footer from "./layouts/Footer";
+import SignUp from "./layouts/Signup";
 import Contact from "./pages/Contact";
 import Product from "./pages/Product";
 import About from "./pages/About";
@@ -14,6 +15,9 @@ function App() {
     <>
       <Header />
       <Switch>
+        <Route path="/signup">
+          <SignUp />
+        </Route>
         <Route path="/shopping">
           <ProductList />
         </Route>
